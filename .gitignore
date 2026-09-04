@@ -1,0 +1,10 @@
+tmp/
+etc/
+dist/
+_*/
+**/_*/
+.claude/*
+!.claude/settings.json
+!.claude/commands/
+!.claude/agents/
+!.claude/skills/
