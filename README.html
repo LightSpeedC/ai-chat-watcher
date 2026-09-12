@@ -189,6 +189,23 @@ td.nowrap,th.nowrap{white-space:nowrap;}
 	line-height:1.5;
 }
 .toc ol a::before{content:counter(tocnum) ". ";}
+
+.doclink{
+	display:inline-block;
+	background:linear-gradient(100deg, var(--navy1, #12224d), var(--navy2, #2f5fbf));
+	color:#fff;
+	text-decoration:none;
+	font-weight:700;
+	border-radius:7px;
+	padding:6px 14px;
+	margin:20px 0;
+}
+
+footer{
+	max-width:1600px;
+	margin:0 auto;
+	padding:18px 30px 0;
+}
 </style>
 </head>
 <body>
@@ -197,11 +214,13 @@ td.nowrap,th.nowrap{white-space:nowrap;}
 	<div class="inner">
 		<h1>ai-chat-watcher</h1>
 		<p class="lead">ai-chat-lite のチャットを待ち受けて、届いた発言を人が読むためのセッション</p>
-		<p class="date">📅 作成: 2026-09-04 / 更新: 2026-09-05</p>
+		<p class="date">📅 作成: 2026-09-04 / 更新: 2026-09-12</p>
 	</div>
 </div>
 
 <div class="wrap">
+
+<a class="doclink" href="../">サイトトップへ戻る</a>
 
 <div class="toc">
 	<h2>目次</h2>
@@ -358,6 +377,10 @@ aichat wait    :ai-chat-watcher: -p 8787 -r ai-chat-lite</code></pre>
 </section>
 
 </div>
+
+<footer>
+<a class="doclink" href="../">サイトトップへ戻る</a>
+</footer>
 
 </body>
 </html>

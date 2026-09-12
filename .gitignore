@@ -1,8 +1,7 @@
 tmp/
 etc/
 dist/
-_*/
-**/_*/
+_*
 .claude/*
 !.claude/settings.json
 !.claude/commands/
